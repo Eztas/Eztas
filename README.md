@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**Eztas/Eztas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Languages and Tools
 
-Here are some ideas to get you started:
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,tailwind,python,notion,docker,git,github,vscode" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Stats
+
+![contribution](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Eztas&theme=tokyonight)
+
+<img alt="Top Langs" height="250px" src="https://github-readme-stats-pi-ruddy-58.vercel.app/api/top-langs/?username=Eztas&theme=tokyonight" />
+
+<img alt="Github Stats" height="250px" src="https://github-readme-stats-pi-ruddy-58.vercel.app/api?username=Eztas&theme=tokyonight&count_private=true" />
+
+<img alt="Github Stats" height="250px" src="https://github-readme-activity-graph.vercel.app/graph?username=Eztas&theme=react-dark&hide_border=true&area=true" />
