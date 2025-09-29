@@ -2,7 +2,7 @@
 
 ### Languages and Tools
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,tailwind,python,notion,docker,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vue,nuxtjs,html,css,tailwind,python,notion,docker,git,github,vscode" />
 
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/a064485c-b5f5-4307-8e82-f75cceece907" />
 
