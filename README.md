@@ -2,7 +2,7 @@
 
 ### Languages and Tools
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,tailwind,nextjs,vite,vitest,prisma,sqlite,graphql,nestjs,vue,nuxtjs,html,css,python,notion,docker,git,github,vscode,pnpm&perline=10" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,tailwind,nextjs,vite,vitest,prisma,sqlite,mongodb,graphql,nestjs,vue,nuxtjs,html,css,python,notion,docker,git,github,vscode,pnpm&perline=10" />
 
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/a064485c-b5f5-4307-8e82-f75cceece907" />
 
