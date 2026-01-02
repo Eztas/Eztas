@@ -10,6 +10,11 @@
 
 ![contribution](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Eztas&theme=tokyonight)
 
+![repos-per-language](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Eztas&theme=tokyonight)
+![most-commit-language](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Eztas&theme=tokyonight)
+![stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eztas&theme=tokyonight)
+![productive-time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Eztas&theme=tokyonight&utcOffset=9)
+
 <!--
 <img alt="Top Langs" height="250px" src="https://github-readme-stats-pi-ruddy-58.vercel.app/api/top-langs/?username=Eztas&theme=tokyonight" />
 <img alt="Github Stats" height="250px" src="https://github-readme-stats-pi-ruddy-58.vercel.app/api?username=Eztas&theme=tokyonight&count_private=true" />
