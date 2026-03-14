@@ -23,4 +23,6 @@
 <img alt="Github Stats" height="250px" src="https://github-readme-activity-graph.vercel.app/graph?username=Eztas&theme=react-dark&hide_border=true&area=true" />
 
 ### コマンド
+```
 git remote set-url origin https://github.com/<account>/<repository>.git
+```
