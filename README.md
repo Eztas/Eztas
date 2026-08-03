@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 I'm a Gemini CLI user
 
 <!-- README.md の好きな場所に挿入 -->
 ![Stack Pipeline](./public/queue.svg)
