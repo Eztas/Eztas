@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="500" height="150">
+  <defs>
+    <!-- グラデーション定義 -->
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa2f7" /> <!-- blue -->
+      <stop offset="50%" stop-color="#bb9af7" /> <!-- purple -->
+      <stop offset="100%" stop-color="#ff9e64" /> <!-- orange -->
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* ベーススタイル */
+    text {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      fill: #a9b1d6; /* foreground */
+    }
+    .icon {
+      font-size: 1.2rem;
+      text-anchor: middle;
+    }
+
+    /* メインラインのアニメーション（ダッシュ） */
+    .deploy-line {
+      stroke: url(#line-grad);
+      stroke-width: 3;
+      stroke-dasharray: 10, 10;
+      animation: dash 2s infinite linear;
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 20;
+      }
+    }
+
+    /* コードブロックのアニメーション（移動） */
+    .code-block {
+      fill: #ff9e64; /* orange */
+      animation: code-push 6s infinite ease-in-out;
+      opacity: 0;
+    }
+    @keyframes code-push {
+      0% { transform: translateX(0); opacity: 0; }
+      5% { opacity: 1; }
+      30% { transform: translateX(110px); } /* To Pipeline */
+      45% { transform: translateX(250px); } /* To Cloud */
+      60% { transform: translateX(400px); } /* To Vercel/CF/Azure */
+      75% { transform: translateX(450px); }
+      90% { opacity: 1; }
+      100% { transform: translateX(500px); opacity: 0; }
+    }
+
+    /* 各ステーションのパルスアニメーション */
+    .pulse {
+      stroke: #7aa2f7;
+      stroke-width: 1;
+      opacity: 0;
+      animation: pulse-ring 3s infinite;
+      transform-origin: center;
+    }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.9); opacity: 0.5; }
+      70%, 100% { transform: scale(1.3); opacity: 0; }
+    }
+  </style>
+
+  <!-- 背景パネル -->
+  <rect width="100%" height="100%" fill="#1a1b26" rx="15" /> <!-- background -->
+
+  <!-- メインパイプライン -->
+  <path d="M 50,75 L 450,75" class="deploy-line" fill="none" />
+
+  <!-- ステーション 1: Input (Code) -->
+  <circle cx="50" cy="75" r="5" fill="#f7768e" /> <!-- red -->
+  <text x="50" y="60" class="icon">📄</text>
+  <text x="50" y="95" text-anchor="middle" font-size="0.8rem">CODE</text>
+
+  <!-- ステーション 2: Tools (TS/React/Go/Docker) -->
+  <circle cx="160" cy="75" r="15" fill="#ff9e64" class="pulse" />
+  <circle cx="160" cy="75" r="6" fill="#ff9e64" />
+  <text x="160" y="60" class="icon">🛠️</text>
+  <text x="160" y="95" text-anchor="middle" font-size="0.8rem">TS/React/Go</text>
+
+  <!-- ステーション 3: Pipeline (GitHub Actions) -->
+  <circle cx="300" cy="75" r="15" fill="#bb9af7" class="pulse" style="animation-delay: 1s;" />
+  <circle cx="300" cy="75" r="7" fill="#bb9af7" />
+  <text x="300" y="60" class="icon">🚀</text>
+  <text x="300" y="95" text-anchor="middle" font-size="0.8rem">CI/CD (Actions)</text>
+
+  <!-- ステーション 4: Cloud (Vercel/Cloudflare) -->
+  <circle cx="450" cy="75" r="15" fill="#7aa2f7" class="pulse" style="animation-delay: 2s;" />
+  <circle cx="450" cy="75" r="8" fill="#7aa2f7" />
+  <text x="450" y="60" class="icon">☁️</text>
+  <text x="450" y="95" text-anchor="middle" font-size="0.8rem">DEPLOY</text>
+
+  <!-- 流れていくコードブロック -->
+  <rect width="10" height="10" rx="2" y="70" class="code-block" />
+
+</svg>
