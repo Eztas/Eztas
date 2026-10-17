@@ -1,11 +1,11 @@
-## Hi there 👋 I'm a Gemini CLI user
+## Hi there 👋 I'm a Antigravity user
 
 <!-- README.md の好きな場所に挿入 -->
 ![Stack Pipeline](./public/queue.svg)
 
 ### Languages and Tools
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,tailwind,nextjs,vite,vitest,prisma,sqlite,mongodb,graphql,nestjs,vue,nuxtjs,html,css,python,go,notion,docker,git,github,githubactions,vscode,pnpm,vercel,cloudflare,azure&perline=10" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,tailwind,nextjs,vite,vitest,prisma,sqlite,mongodb,graphql,nestjs,vue,nuxtjs,html,css,python,go,notion,docker,git,github,githubactions,vscode,pnpm,vercel,cloudflare,azure,gcp&perline=10" />
 
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/a064485c-b5f5-4307-8e82-f75cceece907" />
 
