@@ -1,4 +1,4 @@
-## Hi there 👋 I'm a Antigravity user
+## Hi there 👋 I'm Antigravity user
 
 <!-- README.md の好きな場所に挿入 -->
 ![Stack Pipeline](./public/queue.svg)
