@@ -1,4 +1,4 @@
-## Hi there 👋 I'm Antigravity user
+## Hi there 👋 I'm a Ramen Contributer
 
 <!-- README.md の好きな場所に挿入 -->
 ![Stack Pipeline](./public/queue.svg)
@@ -25,7 +25,5 @@
 
 <img alt="Github Stats" height="250px" src="https://github-readme-activity-graph.vercel.app/graph?username=Eztas&theme=react-dark&hide_border=true&area=true" />
 
-### コマンド
-```
-git remote set-url origin https://github.com/<account>/<repository>.git
-```
+### Contributions
+- [麺屋7.5Hz](https://github.com/yusukebe/ramen-api/pull/84)
